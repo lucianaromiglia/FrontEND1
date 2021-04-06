@@ -1,25 +1,36 @@
-h1, h2 {font-style: italic ; box-align: center;
-background-color: darkgrey;
-color: firebrick;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+.banner { background-image: url("../img/lemon-pie2.jpg");
+background-size: cover;
+background-position: right;
+height: 343px;
 }
 
-
-
-footer {background-color: blue;
-color: cornsilk;
-box-sizing: border-box;
-border: solid black 5px;
-padding: 5px;
-text-size-adjust: center;
+body {text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    background-color:darkgoldenrod ;
 }
 
-body {background-image: url("https://wallpaperstock.net/batman-en-3d-wallpapers_34327_1920x1200.jpg");
-    background-size: cover;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
+h2 {color: white;
+    font-family:'Roboto Slab', serif;
 }
 
-.item-detail {font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+h1 { color: white;
+font-size: 53px;
+font-family: 'Merriweather Sans', sans-serif;}
+
+h2 {font-size: 20px;}
 
 
+h3 {font-style: italic;}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h4 {font-size: 25px;
+font-style: bold;
+font-family: 'Righteous', cursive;} 
